@@ -1,0 +1,12 @@
+[submodule "src/controller_2023_a"]
+	path = src/controller_2023_a
+	url = https://github.com/nityc-d-robo/controller_2023_a.git
+[submodule "src/controller_2023_launch_a"]
+	path = src/controller_2023_launch_a
+	url = https://github.com/nityc-d-robo/controller_2023_launch_a.git
+[submodule "src/drobo_interfaces"]
+	path = src/drobo_interfaces
+	url = https://github.com/nityc-d-robo/drobo_interfaces.git
+[submodule "src/omni_control"]
+	path = src/omni_control
+	url = https://github.com/nityc-d-robo/omni_control.git
