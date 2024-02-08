@@ -1,0 +1,4 @@
+cargo:rustc-link-lib=drobo_interfaces__rosidl_typesupport_c
+cargo:rustc-link-lib=drobo_interfaces__rosidl_generator_c
+cargo:rustc-link-search=/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib
+cargo:rustc-link-search=/opt/ros/humble/lib

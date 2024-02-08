@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a -- -j8 -l8
+Invoked command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a -- -j8 -l8
+Invoking command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a
+Invoked command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a

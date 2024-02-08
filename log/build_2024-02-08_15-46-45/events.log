@@ -1,0 +1,536 @@
+[0.000000] (-) TimerEvent: {}
+[0.000587] (controller_2023_launch_a) JobQueued: {'identifier': 'controller_2023_launch_a', 'dependencies': OrderedDict()}
+[0.001129] (drobo_interfaces) JobQueued: {'identifier': 'drobo_interfaces', 'dependencies': OrderedDict()}
+[0.001516] (controller_2023_a) JobQueued: {'identifier': 'controller_2023_a', 'dependencies': OrderedDict([('drobo_interfaces', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces')])}
+[0.002197] (omni_control) JobQueued: {'identifier': 'omni_control', 'dependencies': OrderedDict([('drobo_interfaces', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces')])}
+[0.002304] (drobo_interfaces) JobStarted: {'identifier': 'drobo_interfaces'}
+[0.027068] (controller_2023_launch_a) JobStarted: {'identifier': 'controller_2023_launch_a'}
+[0.054829] (drobo_interfaces) JobProgress: {'identifier': 'drobo_interfaces', 'progress': 'cmake'}
+[0.055699] (drobo_interfaces) JobProgress: {'identifier': 'drobo_interfaces', 'progress': 'build'}
+[0.055772] (drobo_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces', 'env': OrderedDict([('USER', 'daniel_ezomo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/ubuntu/git/daniel_ws'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ZPFX', '/home/ubuntu/.local/share/zinit/polaris'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install'), ('LOGNAME', 'daniel_ezomo'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'daniel_ezomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('ZSH_CACHE_DIR', '/home/ubuntu/.cache/zinit'), ('PMSPEC', '0uUpiPsf'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/share/zinit/polaris/bin:/home/ubuntu/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezomo:@/tmp/.ICE-unix/1808,unix/ezomo:/tmp/.ICE-unix/1808'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3aeef2d6_6fef_463a_a4f7_22195639f2bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PXQVI2'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/opt/ros/humble')]), 'shell': False}
+[0.058685] (controller_2023_launch_a) JobProgress: {'identifier': 'controller_2023_launch_a', 'progress': 'cmake'}
+[0.058883] (controller_2023_launch_a) JobProgress: {'identifier': 'controller_2023_launch_a', 'progress': 'build'}
+[0.059489] (controller_2023_launch_a) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a', 'env': OrderedDict([('USER', 'daniel_ezomo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/ubuntu/git/daniel_ws'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ZPFX', '/home/ubuntu/.local/share/zinit/polaris'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install'), ('LOGNAME', 'daniel_ezomo'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'daniel_ezomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('ZSH_CACHE_DIR', '/home/ubuntu/.cache/zinit'), ('PMSPEC', '0uUpiPsf'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/share/zinit/polaris/bin:/home/ubuntu/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezomo:@/tmp/.ICE-unix/1808,unix/ezomo:/tmp/.ICE-unix/1808'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3aeef2d6_6fef_463a_a4f7_22195639f2bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PXQVI2'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/opt/ros/humble')]), 'shell': False}
+[0.079629] (controller_2023_launch_a) CommandEnded: {'returncode': 0}
+[0.091643] (controller_2023_launch_a) JobProgress: {'identifier': 'controller_2023_launch_a', 'progress': 'install'}
+[0.097194] (controller_2023_launch_a) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a'], 'cwd': '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a', 'env': OrderedDict([('USER', 'daniel_ezomo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/ubuntu/git/daniel_ws'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ZPFX', '/home/ubuntu/.local/share/zinit/polaris'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install'), ('LOGNAME', 'daniel_ezomo'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'daniel_ezomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('ZSH_CACHE_DIR', '/home/ubuntu/.cache/zinit'), ('PMSPEC', '0uUpiPsf'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/share/zinit/polaris/bin:/home/ubuntu/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezomo:@/tmp/.ICE-unix/1808,unix/ezomo:/tmp/.ICE-unix/1808'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3aeef2d6_6fef_463a_a4f7_22195639f2bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PXQVI2'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_launch_a'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/opt/ros/humble')]), 'shell': False}
+[0.099317] (-) TimerEvent: {}
+[0.100843] (controller_2023_launch_a) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.101551] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a//launch\n'}
+[0.101668] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a//launch/controller_2023_launch_a.launch.xml\n'}
+[0.101872] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/ament_index/resource_index/package_run_dependencies/controller_2023_launch_a\n'}
+[0.102195] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/ament_index/resource_index/parent_prefix_path/controller_2023_launch_a\n'}
+[0.102332] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/environment/ament_prefix_path.sh\n'}
+[0.102836] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/environment/ament_prefix_path.dsv\n'}
+[0.103031] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/environment/path.sh\n'}
+[0.103367] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/environment/path.dsv\n'}
+[0.103482] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/local_setup.bash\n'}
+[0.103580] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/local_setup.sh\n'}
+[0.103820] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/local_setup.zsh\n'}
+[0.103921] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/local_setup.dsv\n'}
+[0.104014] (controller_2023_launch_a) StdoutLine: {'line': b'-- Installing: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/package.dsv\n'}
+[0.104124] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/ament_index/resource_index/packages/controller_2023_launch_a\n'}
+[0.104392] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/cmake/controller_2023_launch_aConfig.cmake\n'}
+[0.104495] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/cmake/controller_2023_launch_aConfig-version.cmake\n'}
+[0.104588] (controller_2023_launch_a) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a/share/controller_2023_launch_a/package.xml\n'}
+[0.104680] (controller_2023_launch_a) CommandEnded: {'returncode': 0}
+[0.105246] (drobo_interfaces) StdoutLine: {'line': b'[  2%] Built target drobo_interfaces__cpp\n'}
+[0.106670] (drobo_interfaces) StdoutLine: {'line': b'[ 12%] Built target drobo_interfaces__rosidl_generator_c\n'}
+[0.111205] (drobo_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_drobo_interfaces\n'}
+[0.118184] (drobo_interfaces) StdoutLine: {'line': b'[ 23%] Built target drobo_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.121823] (drobo_interfaces) StdoutLine: {'line': b'[ 34%] Built target drobo_interfaces__rosidl_typesupport_cpp\n'}
+[0.123196] (drobo_interfaces) StdoutLine: {'line': b'[ 44%] Built target drobo_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.124985] (drobo_interfaces) StdoutLine: {'line': b'[ 55%] Built target drobo_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.125758] (drobo_interfaces) StdoutLine: {'line': b'[ 76%] Built target drobo_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.125801] (drobo_interfaces) StdoutLine: {'line': b'[ 76%] Built target drobo_interfaces__rosidl_typesupport_c\n'}
+[0.140987] (drobo_interfaces) StdoutLine: {'line': b'[ 76%] Built target drobo_interfaces\n'}
+[0.153004] (drobo_interfaces) StdoutLine: {'line': b'[ 78%] Built target drobo_interfaces__py\n'}
+[0.166816] (drobo_interfaces) StdoutLine: {'line': b'[ 87%] Built target drobo_interfaces__rosidl_generator_py\n'}
+[0.173838] (controller_2023_launch_a) JobEnded: {'identifier': 'controller_2023_launch_a', 'rc': 0}
+[0.178986] (drobo_interfaces) StdoutLine: {'line': b'[ 91%] Built target drobo_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.182095] (drobo_interfaces) StdoutLine: {'line': b'[ 95%] Built target drobo_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.185767] (drobo_interfaces) StdoutLine: {'line': b'[100%] Built target drobo_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199418] (-) TimerEvent: {}
+[0.253813] (drobo_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.254101] (drobo_interfaces) StdoutLine: {'line': b'writing drobo_interfaces.egg-info/PKG-INFO\n'}
+[0.254274] (drobo_interfaces) StdoutLine: {'line': b'writing dependency_links to drobo_interfaces.egg-info/dependency_links.txt\n'}
+[0.254400] (drobo_interfaces) StdoutLine: {'line': b'writing top-level names to drobo_interfaces.egg-info/top_level.txt\n'}
+[0.255163] (drobo_interfaces) StdoutLine: {'line': b"reading manifest file 'drobo_interfaces.egg-info/SOURCES.txt'\n"}
+[0.255508] (drobo_interfaces) StdoutLine: {'line': b"writing manifest file 'drobo_interfaces.egg-info/SOURCES.txt'\n"}
+[0.269806] (drobo_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_drobo_interfaces_egg\n'}
+[0.285938] (drobo_interfaces) CommandEnded: {'returncode': 0}
+[0.299526] (-) TimerEvent: {}
+[0.358088] (drobo_interfaces) JobProgress: {'identifier': 'drobo_interfaces', 'progress': 'install'}
+[0.359052] (drobo_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces'], 'cwd': '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces', 'env': OrderedDict([('USER', 'daniel_ezomo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/ubuntu/git/daniel_ws'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ZPFX', '/home/ubuntu/.local/share/zinit/polaris'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install'), ('LOGNAME', 'daniel_ezomo'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'daniel_ezomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('ZSH_CACHE_DIR', '/home/ubuntu/.cache/zinit'), ('PMSPEC', '0uUpiPsf'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/share/zinit/polaris/bin:/home/ubuntu/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezomo:@/tmp/.ICE-unix/1808,unix/ezomo:/tmp/.ICE-unix/1808'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3aeef2d6_6fef_463a_a4f7_22195639f2bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PXQVI2'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/opt/ros/humble')]), 'shell': False}
+[0.365282] (drobo_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.365653] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/ament_index/resource_index/rosidl_interfaces/drobo_interfaces\n'}
+[0.365943] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces\n'}
+[0.366142] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg\n'}
+[0.366410] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.366615] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/sd_lib_msg.h\n'}
+[0.366903] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail\n'}
+[0.367103] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__functions.c\n'}
+[0.367325] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__functions.h\n'}
+[0.367625] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__struct.h\n'}
+[0.367883] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__type_support.h\n'}
+[0.368107] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__functions.h\n'}
+[0.368355] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__type_support.h\n'}
+[0.368557] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__struct.h\n'}
+[0.368778] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__functions.c\n'}
+[0.369028] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/md_lib_msg.h\n'}
+[0.369313] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv\n'}
+[0.369575] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/solenoid_state_srv.h\n'}
+[0.369749] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail\n'}
+[0.369919] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__functions.c\n'}
+[0.370094] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__struct.h\n'}
+[0.370261] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__functions.h\n'}
+[0.370427] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__type_support.h\n'}
+[0.370592] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/library_path.sh\n'}
+[0.370760] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/library_path.dsv\n'}
+[0.370926] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_generator_c.so\n'}
+[0.371090] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces\n'}
+[0.371256] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg\n'}
+[0.371422] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.371590] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail\n'}
+[0.371754] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.371921] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.372090] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv\n'}
+[0.372254] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail\n'}
+[0.372424] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[0.372592] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.372761] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces\n'}
+[0.372929] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg\n'}
+[0.373093] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.373260] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail\n'}
+[0.373426] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.373608] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__type_support.c\n'}
+[0.373776] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__type_support.c\n'}
+[0.373942] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.374109] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv\n'}
+[0.374275] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail\n'}
+[0.374446] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__type_support.c\n'}
+[0.374613] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__rosidl_typesupport_introspection_c.h\n'}
+[0.374780] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.374945] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_typesupport_c.so\n'}
+[0.375111] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces\n'}
+[0.375275] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg\n'}
+[0.375441] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail\n'}
+[0.375618] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__struct.hpp\n'}
+[0.375785] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__traits.hpp\n'}
+[0.375871] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__builder.hpp\n'}
+[0.375949] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__traits.hpp\n'}
+[0.376028] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__struct.hpp\n'}
+[0.376106] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__builder.hpp\n'}
+[0.376184] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/md_lib_msg.hpp\n'}
+[0.376263] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/sd_lib_msg.hpp\n'}
+[0.376342] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv\n'}
+[0.376420] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/solenoid_state_srv.hpp\n'}
+[0.376499] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail\n'}
+[0.376577] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__builder.hpp\n'}
+[0.376656] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__traits.hpp\n'}
+[0.376733] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__struct.hpp\n'}
+[0.376812] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces\n'}
+[0.376890] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg\n'}
+[0.376968] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.377046] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail\n'}
+[0.377124] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.377203] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/dds_fastrtps\n'}
+[0.377283] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.377361] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv\n'}
+[0.377438] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail\n'}
+[0.377523] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.377602] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/dds_fastrtps\n'}
+[0.377681] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.377758] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces\n'}
+[0.377836] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg\n'}
+[0.377915] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail\n'}
+[0.377993] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__type_support.cpp\n'}
+[0.378071] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__type_support.cpp\n'}
+[0.378149] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/sd_lib_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.378227] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/msg/detail/md_lib_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.378312] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv\n'}
+[0.378390] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail\n'}
+[0.378468] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.378547] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/include/drobo_interfaces/drobo_interfaces/srv/detail/solenoid_state_srv__type_support.cpp\n'}
+[0.378624] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.378702] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.378783] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/pythonpath.sh\n'}
+[0.378862] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/pythonpath.dsv\n'}
+[0.378939] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.379018] (drobo_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.379098] (drobo_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.379175] (drobo_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.379254] (drobo_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.379345] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces\n'}
+[0.379423] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/drobo_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.379503] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/drobo_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.379582] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/_drobo_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.379661] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/drobo_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.379741] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/_drobo_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.379820] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/msg\n'}
+[0.379898] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/msg/_sd_lib_msg.py\n'}
+[0.379977] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/msg/_md_lib_msg.py\n'}
+[0.380055] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/msg/__init__.py\n'}
+[0.380134] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/msg/_md_lib_msg_s.c\n'}
+[0.380215] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/msg/_sd_lib_msg_s.c\n'}
+[0.380294] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/__init__.py\n'}
+[0.380372] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/libdrobo_interfaces__rosidl_generator_py.so\n'}
+[0.380452] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/_drobo_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.380529] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/srv\n'}
+[0.380608] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/srv/_solenoid_state_srv_s.c\n'}
+[0.380688] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/srv/__init__.py\n'}
+[0.380767] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/srv/_solenoid_state_srv.py\n'}
+[0.387921] (drobo_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces'...\n"}
+[0.388053] (drobo_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/msg'...\n"}
+[0.388173] (drobo_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/srv'...\n"}
+[0.390204] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/drobo_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.390371] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/drobo_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.390529] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages/drobo_interfaces/drobo_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.390700] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib/libdrobo_interfaces__rosidl_generator_py.so\n'}
+[0.390889] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/msg/MdLibMsg.idl\n'}
+[0.391083] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/msg/SdLibMsg.idl\n'}
+[0.391268] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/srv/SolenoidStateSrv.idl\n'}
+[0.391456] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/msg/MdLibMsg.msg\n'}
+[0.391636] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/msg/SdLibMsg.msg\n'}
+[0.391841] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/srv/SolenoidStateSrv.srv\n'}
+[0.391994] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/srv/SolenoidStateSrv_Request.msg\n'}
+[0.392119] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/srv/SolenoidStateSrv_Response.msg\n'}
+[0.392242] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/ament_index/resource_index/package_run_dependencies/drobo_interfaces\n'}
+[0.392368] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/ament_index/resource_index/parent_prefix_path/drobo_interfaces\n'}
+[0.392491] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/ament_prefix_path.sh\n'}
+[0.392616] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.392746] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/path.sh\n'}
+[0.393335] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/environment/path.dsv\n'}
+[0.393844] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/local_setup.bash\n'}
+[0.394111] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/local_setup.sh\n'}
+[0.394393] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/local_setup.zsh\n'}
+[0.394569] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/local_setup.dsv\n'}
+[0.394699] (drobo_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/package.dsv\n'}
+[0.394903] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/ament_index/resource_index/packages/drobo_interfaces\n'}
+[0.395078] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.395325] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.395494] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.395715] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.395849] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.396011] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.396317] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.396537] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.396674] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.396830] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.397127] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.397267] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.397424] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.397684] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.397901] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.398103] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.398235] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/export_drobo_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.398480] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.398643] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.398863] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.398995] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.399155] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.399425] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.399555] (-) TimerEvent: {}
+[0.399721] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.399859] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfacesConfig.cmake\n'}
+[0.400076] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/cmake/drobo_interfacesConfig-version.cmake\n'}
+[0.400213] (drobo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/share/drobo_interfaces/package.xml\n'}
+[0.400374] (drobo_interfaces) CommandEnded: {'returncode': 0}
+[0.499645] (-) TimerEvent: {}
+[0.580526] (drobo_interfaces) JobEnded: {'identifier': 'drobo_interfaces', 'rc': 0}
+[0.580837] (controller_2023_a) JobStarted: {'identifier': 'controller_2023_a'}
+[0.599786] (-) TimerEvent: {}
+[0.604076] (omni_control) JobStarted: {'identifier': 'omni_control'}
+[0.628718] (controller_2023_a) JobProgress: {'identifier': 'controller_2023_a', 'progress': 'prepare'}
+[0.634981] (controller_2023_a) JobProgress: {'identifier': 'controller_2023_a', 'progress': 'build'}
+[0.634995] (controller_2023_a) Command: {'cmd': ['/home/ubuntu/.cargo/bin/cargo', 'ament-build', '--install-base', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a', '--', '--manifest-path', '/home/ubuntu/git/daniel_ws/2023_controller_a/src/controller_2023_a/Cargo.toml', '--target-dir', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_a', '--quiet', '--release'], 'cwd': PosixPath('src/controller_2023_a'), 'env': OrderedDict([('USER', 'daniel_ezomo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/ubuntu/git/daniel_ws'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ZPFX', '/home/ubuntu/.local/share/zinit/polaris'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install'), ('LOGNAME', 'daniel_ezomo'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'daniel_ezomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('ZSH_CACHE_DIR', '/home/ubuntu/.cache/zinit'), ('PMSPEC', '0uUpiPsf'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/share/zinit/polaris/bin:/home/ubuntu/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezomo:@/tmp/.ICE-unix/1808,unix/ezomo:/tmp/.ICE-unix/1808'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3aeef2d6_6fef_463a_a4f7_22195639f2bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PXQVI2'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/controller_2023_a'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a')]), 'shell': False}
+[0.636092] (omni_control) JobProgress: {'identifier': 'omni_control', 'progress': 'prepare'}
+[0.642589] (omni_control) JobProgress: {'identifier': 'omni_control', 'progress': 'build'}
+[0.642600] (omni_control) Command: {'cmd': ['/home/ubuntu/.cargo/bin/cargo', 'ament-build', '--install-base', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/omni_control', '--', '--manifest-path', '/home/ubuntu/git/daniel_ws/2023_controller_a/src/omni_control/Cargo.toml', '--target-dir', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/omni_control', '--quiet', '--release'], 'cwd': PosixPath('src/omni_control'), 'env': OrderedDict([('USER', 'daniel_ezomo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/ubuntu/git/daniel_ws'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ZPFX', '/home/ubuntu/.local/share/zinit/polaris'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install'), ('LOGNAME', 'daniel_ezomo'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'daniel_ezomo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('ZSH_CACHE_DIR', '/home/ubuntu/.cache/zinit'), ('PMSPEC', '0uUpiPsf'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/share/zinit/polaris/bin:/home/ubuntu/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezomo:@/tmp/.ICE-unix/1808,unix/ezomo:/tmp/.ICE-unix/1808'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3aeef2d6_6fef_463a_a4f7_22195639f2bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PXQVI2'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a:/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ubuntu/git/daniel_ws/2023_controller_a/build/omni_control'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/git/daniel_ws/2023_controller_a/install/drobo_interfaces:/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_launch_a')]), 'shell': False}
+[0.699878] (-) TimerEvent: {}
+[0.714666] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: unused imports: `RecvResult`, `pr_fatal`, `pr_info`, `self`, `service::client::Client`, `std_msgs`\x1b[0m\n'}
+[0.715406] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/main.rs:9:43\x1b[0m\n'}
+[0.715445] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.715476] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m9\x1b[0m\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    msg::common_interfaces::{sensor_msgs, std_msgs},\x1b[0m\n'}
+[0.715506] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m                                          \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\n'}
+[0.715537] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m10\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pr_fatal, pr_info,\x1b[0m\n'}
+[0.715567] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^\x1b[0m\n'}
+[0.715596] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m11\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    selector::Selector,\x1b[0m\n'}
+[0.715625] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m12\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    service::client::Client,\x1b[0m\n'}
+[0.715655] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.715684] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m13\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    topic::{publisher::{self, Publisher}, subscriber::Subscriber},\x1b[0m\n'}
+[0.715716] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m                        \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^\x1b[0m\n'}
+[0.715746] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m14\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    RecvResult,\x1b[0m\n'}
+[0.715776] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^\x1b[0m\n'}
+[0.715807] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.716196] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m= \x1b[0m\x1b[0m\x1b[1mnote\x1b[0m\x1b[0m: `#[warn(unused_imports)]` on by default\x1b[0m\n'}
+[0.716332] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.716356] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: unused import: `time::Duration`\x1b[0m\n'}
+[0.716380] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/main.rs:16:19\x1b[0m\n'}
+[0.716404] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.716428] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m16\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0muse std::{rc::Rc, time::Duration};\x1b[0m\n'}
+[0.716452] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m                  \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.716477] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.716500] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: unused import: `safe_drive::node::Node`\x1b[0m\n'}
+[0.716525] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/main.rs:18:5\x1b[0m\n'}
+[0.716550] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.716575] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m18\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0muse safe_drive::node::Node;\x1b[0m\n'}
+[0.716600] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.716624] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.716649] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: unused variable: `logger`\x1b[0m\n'}
+[0.716674] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/main.rs:62:9\x1b[0m\n'}
+[0.716698] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.716722] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m62\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    let logger = Rc::new(Logger::new("controller_2023"));\x1b[0m\n'}
+[0.716747] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m        \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[33mhelp: if this is intentional, prefix it with an underscore: `_logger`\x1b[0m\n'}
+[0.716774] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.716798] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m= \x1b[0m\x1b[0m\x1b[1mnote\x1b[0m\x1b[0m: `#[warn(unused_variables)]` on by default\x1b[0m\n'}
+[0.716823] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.716848] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: unused variable: `publisher`\x1b[0m\n'}
+[0.716873] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/main.rs:59:5\x1b[0m\n'}
+[0.716898] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.716923] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m59\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    publisher:Publisher<MdLibMsg>\x1b[0m\n'}
+[0.716948] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[33mhelp: if this is intentional, prefix it with an underscore: `_publisher`\x1b[0m\n'}
+[0.716973] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.716997] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: function `send_pwm` is never used\x1b[0m\n'}
+[0.717022] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/main.rs:132:4\x1b[0m\n'}
+[0.717047] (controller_2023_a) StderrLine: {'line': b'\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.717072] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m132\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0mfn send_pwm(_address:u32, _semi_id:u32,_phase:bool,_power:u32,publisher:&Publisher<MdLibMsg>){\x1b[0m\n'}
+[0.717098] (controller_2023_a) StderrLine: {'line': b'\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\n'}
+[0.717123] (controller_2023_a) StderrLine: {'line': b'\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.717147] (controller_2023_a) StderrLine: {'line': b'\x1b[0m    \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m= \x1b[0m\x1b[0m\x1b[1mnote\x1b[0m\x1b[0m: `#[warn(dead_code)]` on by default\x1b[0m\n'}
+[0.717172] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.717197] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: multiple methods are never used\x1b[0m\n'}
+[0.717221] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/p9n_interface.rs:16:12\x1b[0m\n'}
+[0.717247] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.717271] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m9\x1b[0m\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0mimpl PlaystationInterface {\x1b[0m\n'}
+[0.717296] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m-------------------------\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12mmethods in this implementation\x1b[0m\n'}
+[0.717322] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717346] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m16\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_start(&self) -> bool {\x1b[0m\n'}
+[0.717371] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^\x1b[0m\n'}
+[0.717397] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717421] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m19\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_l1(&self) -> bool {\x1b[0m\n'}
+[0.717446] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^\x1b[0m\n'}
+[0.717481] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717506] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m22\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_r1(&self) -> bool {\x1b[0m\n'}
+[0.717531] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^\x1b[0m\n'}
+[0.717557] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717582] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m25\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_l2(&self) -> bool {\x1b[0m\n'}
+[0.717607] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^\x1b[0m\n'}
+[0.717632] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717656] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m31\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_dpad_left(&self) -> bool {\x1b[0m\n'}
+[0.717681] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.717706] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717731] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m34\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_dpad_up(&self) -> bool {\x1b[0m\n'}
+[0.717756] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.717780] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717805] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m37\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_dpad_right(&self) -> bool {\x1b[0m\n'}
+[0.717829] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.717855] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717880] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m40\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_l2_analog(&self) -> f32 {\x1b[0m\n'}
+[0.717904] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.717929] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m...\x1b[0m\n'}
+[0.717953] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m43\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub fn pressed_r2_analog(&self) -> f32 {\x1b[0m\n'}
+[0.717978] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m           \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^^^\x1b[0m\n'}
+[0.718003] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.718028] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `STICK_LX` is never used\x1b[0m\n'}
+[0.718053] (controller_2023_a) StderrLine: {'line': b'\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:3:15\x1b[0m\n'}
+[0.718077] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.718101] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m3\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const STICK_LX: usize = 0;\x1b[0m\n'}
+[0.718127] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\n'}
+[0.718152] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.718176] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `STICK_LY` is never used\x1b[0m\n'}
+[0.718201] (controller_2023_a) StderrLine: {'line': b'\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:4:15\x1b[0m\n'}
+[0.718226] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.718251] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m4\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const STICK_LY: usize = 1;\x1b[0m\n'}
+[0.718276] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\n'}
+[0.718301] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.718325] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `L2` is never used\x1b[0m\n'}
+[0.718350] (controller_2023_a) StderrLine: {'line': b'\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:5:15\x1b[0m\n'}
+[0.718374] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.718451] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m5\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const L2: usize = 2;\x1b[0m\n'}
+[0.718489] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^\x1b[0m\n'}
+[0.718518] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.718546] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `STICK_RX` is never used\x1b[0m\n'}
+[0.718575] (controller_2023_a) StderrLine: {'line': b'\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:6:15\x1b[0m\n'}
+[0.718604] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.718633] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m6\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const STICK_RX: usize = 3;\x1b[0m\n'}
+[0.718662] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\n'}
+[0.718690] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.718719] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `STICK_RY` is never used\x1b[0m\n'}
+[0.718748] (controller_2023_a) StderrLine: {'line': b'\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:7:15\x1b[0m\n'}
+[0.718778] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.718807] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m7\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const STICK_RY: usize = 4;\x1b[0m\n'}
+[0.718836] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\n'}
+[0.718865] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.718893] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `R2` is never used\x1b[0m\n'}
+[0.718922] (controller_2023_a) StderrLine: {'line': b'\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:8:15\x1b[0m\n'}
+[0.718951] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.718980] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m8\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const R2: usize = 5;\x1b[0m\n'}
+[0.719009] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^\x1b[0m\n'}
+[0.719038] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.719067] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `DPAD_X` is never used\x1b[0m\n'}
+[0.719095] (controller_2023_a) StderrLine: {'line': b'\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:9:15\x1b[0m\n'}
+[0.719124] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.719152] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m9\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const DPAD_X: usize = 6;\x1b[0m\n'}
+[0.719181] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^\x1b[0m\n'}
+[0.719210] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.719238] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `DPAD_Y` is never used\x1b[0m\n'}
+[0.719267] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:10:15\x1b[0m\n'}
+[0.719296] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.719324] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m10\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const DPAD_Y: usize = 7;\x1b[0m\n'}
+[0.719353] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^\x1b[0m\n'}
+[0.719382] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.719411] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `CROSS` is never used\x1b[0m\n'}
+[0.719439] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:13:15\x1b[0m\n'}
+[0.719468] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.719496] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m13\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const CROSS: usize = 0;\x1b[0m\n'}
+[0.719525] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^\x1b[0m\n'}
+[0.719554] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.719582] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `CIRCLE` is never used\x1b[0m\n'}
+[0.719610] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:14:15\x1b[0m\n'}
+[0.719639] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.719667] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m14\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const CIRCLE: usize = 1;\x1b[0m\n'}
+[0.719696] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^\x1b[0m\n'}
+[0.719725] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.719753] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `TRIANGLE` is never used\x1b[0m\n'}
+[0.719782] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:15:15\x1b[0m\n'}
+[0.719810] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.719839] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m15\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const TRIANGLE: usize = 2;\x1b[0m\n'}
+[0.719868] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^\x1b[0m\n'}
+[0.719896] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.719924] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `SQUARE` is never used\x1b[0m\n'}
+[0.719953] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:16:15\x1b[0m\n'}
+[0.719982] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.720010] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m16\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const SQUARE: usize = 3;\x1b[0m\n'}
+[0.720040] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^\x1b[0m\n'}
+[0.720068] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.720096] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `L1` is never used\x1b[0m\n'}
+[0.720125] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:17:15\x1b[0m\n'}
+[0.720154] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.720182] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m17\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const L1: usize = 4;\x1b[0m\n'}
+[0.720211] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^\x1b[0m\n'}
+[0.720239] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.720267] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `R1` is never used\x1b[0m\n'}
+[0.720296] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:18:15\x1b[0m\n'}
+[0.720324] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.720352] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m18\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const R1: usize = 5;\x1b[0m\n'}
+[0.720381] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^\x1b[0m\n'}
+[0.720409] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.720437] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `L2` is never used\x1b[0m\n'}
+[0.720465] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:19:15\x1b[0m\n'}
+[0.720494] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.720522] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m19\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const L2: usize = 6;\x1b[0m\n'}
+[0.720551] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^\x1b[0m\n'}
+[0.720580] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.720608] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `SELECT` is never used\x1b[0m\n'}
+[0.720637] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:21:15\x1b[0m\n'}
+[0.720665] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.720693] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m21\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const SELECT: usize = 8;\x1b[0m\n'}
+[0.720722] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^\x1b[0m\n'}
+[0.720751] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.720779] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `START` is never used\x1b[0m\n'}
+[0.720807] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:22:15\x1b[0m\n'}
+[0.720836] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.720864] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m22\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const START: usize = 9;\x1b[0m\n'}
+[0.720894] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^\x1b[0m\n'}
+[0.720923] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.720951] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `PS` is never used\x1b[0m\n'}
+[0.720980] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:23:15\x1b[0m\n'}
+[0.721008] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.721036] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m23\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const PS: usize = 10;\x1b[0m\n'}
+[0.721065] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^\x1b[0m\n'}
+[0.721093] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.721121] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `STICK_L_PUSH` is never used\x1b[0m\n'}
+[0.721149] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:24:15\x1b[0m\n'}
+[0.721178] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.721206] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m24\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const STICK_L_PUSH: usize = 11;\x1b[0m\n'}
+[0.721235] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^\x1b[0m\n'}
+[0.721264] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.721292] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: constant `STICK_R_PUSH` is never used\x1b[0m\n'}
+[0.721320] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:25:15\x1b[0m\n'}
+[0.721349] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.721377] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m25\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0m    pub const STICK_R_PUSH: usize = 12;\x1b[0m\n'}
+[0.721406] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m              \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^\x1b[0m\n'}
+[0.721434] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.721470] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: module `DualsenseState` should have a snake case name\x1b[0m\n'}
+[0.721500] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/main.rs:20:9\x1b[0m\n'}
+[0.721528] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.721556] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m20\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0mpub mod DualsenseState {\x1b[0m\n'}
+[0.721586] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m        \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[33mhelp: convert the identifier to snake case: `dualsense_state`\x1b[0m\n'}
+[0.721615] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.721643] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m= \x1b[0m\x1b[0m\x1b[1mnote\x1b[0m\x1b[0m: `#[warn(non_snake_case)]` on by default\x1b[0m\n'}
+[0.721738] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.721768] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[33mwarning\x1b[0m\x1b[0m\x1b[1m: module `BUTTONS_DUALSENSE` should have a snake case name\x1b[0m\n'}
+[0.721797] (controller_2023_a) StderrLine: {'line': b'\x1b[0m  \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m--> \x1b[0m\x1b[0msrc/ps5_dualsense.rs:12:9\x1b[0m\n'}
+[0.721837] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\n'}
+[0.721928] (controller_2023_a) StderrLine: {'line': b'\x1b[0m\x1b[1m\x1b[38;5;12m12\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m|\x1b[0m\x1b[0m \x1b[0m\x1b[0mpub mod BUTTONS_DUALSENSE {\x1b[0m\n'}
+[0.721958] (controller_2023_a) StderrLine: {'line': b'\x1b[0m   \x1b[0m\x1b[0m\x1b[1m\x1b[38;5;12m| \x1b[0m\x1b[0m        \x1b[0m\x1b[0m\x1b[1m\x1b[33m^^^^^^^^^^^^^^^^^\x1b[0m\x1b[0m \x1b[0m\x1b[0m\x1b[1m\x1b[33mhelp: convert the identifier to snake case: `buttons_dualsense`\x1b[0m\n'}
+[0.721989] (controller_2023_a) StderrLine: {'line': b'\n'}
+[0.722295] (controller_2023_a) CommandEnded: {'returncode': 0}
+[0.739840] (controller_2023_a) JobEnded: {'identifier': 'controller_2023_a', 'rc': 0}
+[0.800017] (-) TimerEvent: {}
+[0.900406] (-) TimerEvent: {}
+[1.000798] (-) TimerEvent: {}
+[1.101203] (-) TimerEvent: {}
+[1.201625] (-) TimerEvent: {}
+[1.301992] (-) TimerEvent: {}
+[1.402381] (-) TimerEvent: {}
+[1.502776] (-) TimerEvent: {}
+[1.603173] (-) TimerEvent: {}
+[1.703562] (-) TimerEvent: {}
+[1.803983] (-) TimerEvent: {}
+[1.904438] (-) TimerEvent: {}
+[2.004836] (-) TimerEvent: {}
+[2.106400] (-) TimerEvent: {}
+[2.206872] (-) TimerEvent: {}
+[2.307356] (-) TimerEvent: {}
+[2.407744] (-) TimerEvent: {}
+[2.508277] (-) TimerEvent: {}
+[2.608894] (-) TimerEvent: {}
+[2.709377] (-) TimerEvent: {}
+[2.809949] (-) TimerEvent: {}
+[2.910340] (-) TimerEvent: {}
+[3.010735] (-) TimerEvent: {}
+[3.111195] (-) TimerEvent: {}
+[3.211805] (-) TimerEvent: {}
+[3.312390] (-) TimerEvent: {}
+[3.412893] (-) TimerEvent: {}
+[3.513298] (-) TimerEvent: {}
+[3.613894] (-) TimerEvent: {}
+[3.714431] (-) TimerEvent: {}
+[3.814896] (-) TimerEvent: {}
+[3.915396] (-) TimerEvent: {}
+[4.015748] (-) TimerEvent: {}
+[4.115990] (-) TimerEvent: {}
+[4.216322] (-) TimerEvent: {}
+[4.316640] (-) TimerEvent: {}
+[4.416992] (-) TimerEvent: {}
+[4.517426] (-) TimerEvent: {}
+[4.617828] (-) TimerEvent: {}
+[4.718339] (-) TimerEvent: {}
+[4.818736] (-) TimerEvent: {}
+[4.919071] (-) TimerEvent: {}
+[5.019483] (-) TimerEvent: {}
+[5.119844] (-) TimerEvent: {}
+[5.220221] (-) TimerEvent: {}
+[5.320588] (-) TimerEvent: {}
+[5.420935] (-) TimerEvent: {}
+[5.521318] (-) TimerEvent: {}
+[5.621737] (-) TimerEvent: {}
+[5.722137] (-) TimerEvent: {}
+[5.822556] (-) TimerEvent: {}
+[5.923171] (-) TimerEvent: {}
+[6.023716] (-) TimerEvent: {}
+[6.124086] (-) TimerEvent: {}
+[6.224491] (-) TimerEvent: {}
+[6.324896] (-) TimerEvent: {}
+[6.425375] (-) TimerEvent: {}
+[6.525774] (-) TimerEvent: {}
+[6.626195] (-) TimerEvent: {}
+[6.726799] (-) TimerEvent: {}
+[6.827309] (-) TimerEvent: {}
+[6.927564] (-) TimerEvent: {}
+[7.027978] (-) TimerEvent: {}
+[7.055914] (omni_control) CommandEnded: {'returncode': 0}
+[7.075682] (omni_control) JobEnded: {'identifier': 'omni_control', 'rc': 0}
+[7.076070] (-) EventReactorShutdown: {}

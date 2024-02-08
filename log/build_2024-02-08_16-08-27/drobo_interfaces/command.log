@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces -- -j8 -l8
+Invoked command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces -- -j8 -l8
+Invoking command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces
+Invoked command in '/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces

@@ -1,0 +1,3 @@
+/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces/rosidl_adapter/drobo_interfaces:msg/MdLibMsg.idl
+/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces/rosidl_adapter/drobo_interfaces:msg/SdLibMsg.idl
+/home/ubuntu/git/daniel_ws/2023_controller_a/build/drobo_interfaces/rosidl_adapter/drobo_interfaces:srv/SolenoidStateSrv.idl

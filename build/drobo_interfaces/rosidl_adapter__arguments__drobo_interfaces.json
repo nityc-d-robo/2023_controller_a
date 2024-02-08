@@ -1,0 +1,8 @@
+{
+  "package_name": "drobo_interfaces",
+  "non_idl_tuples": [
+    "/home/ubuntu/git/daniel_ws/2023_controller_a/src/drobo_interfaces:msg/MdLibMsg.msg",
+    "/home/ubuntu/git/daniel_ws/2023_controller_a/src/drobo_interfaces:msg/SdLibMsg.msg",
+    "/home/ubuntu/git/daniel_ws/2023_controller_a/src/drobo_interfaces:srv/SolenoidStateSrv.srv"
+  ]
+}
