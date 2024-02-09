@@ -1,8 +1,0 @@
-source;share/controller_2023_launch_a/hook/cmake_prefix_path.ps1
-source;share/controller_2023_launch_a/hook/cmake_prefix_path.dsv
-source;share/controller_2023_launch_a/hook/cmake_prefix_path.sh
-source;share/controller_2023_launch_a/local_setup.bash
-source;share/controller_2023_launch_a/local_setup.dsv
-source;share/controller_2023_launch_a/local_setup.ps1
-source;share/controller_2023_launch_a/local_setup.sh
-source;share/controller_2023_launch_a/local_setup.zsh
