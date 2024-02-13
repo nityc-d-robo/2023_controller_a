@@ -1,1 +1,5 @@
-[patch.crates-io]
+[patch.crates-io.omni_control]
+path = "/home/ubuntu/git/daniel_ws/2023_controller_a/install/omni_control/share/omni_control/rust"
+
+[patch.crates-io.controller_2023_a]
+path = "/home/ubuntu/git/daniel_ws/2023_controller_a/install/controller_2023_a/share/controller_2023_a/rust"
