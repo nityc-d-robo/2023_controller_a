@@ -1,3 +1,6 @@
+[patch.crates-io.servo_atonement]
+path = "/home/ubuntu/git/daniel_ws/2023_controller_a/install/servo_atonement/share/servo_atonement/rust"
+
 [patch.crates-io.omni_control]
 path = "/home/ubuntu/git/daniel_ws/2023_controller_a/install/omni_control/share/omni_control/rust"
 
